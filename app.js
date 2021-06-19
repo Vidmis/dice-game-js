@@ -22,11 +22,11 @@ document.querySelector(".btn-roll").addEventListener("click", function () {
     // 2. Display the result
     var diceDOM = document.querySelector(".dice");
     diceDOM.style.display = "block";
-    diceDOM.src = "dice-" + dice + ".png";
+    diceDOM.src = "./images/dice-" + dice + ".png";
 
     var diceSecDOM = document.querySelector("#diceSec");
     diceSecDOM.style.display = "block";
-    diceSecDOM.src = "dice-" + diceSec + ".png";
+    diceSecDOM.src = "./images/dice-" + diceSec + ".png";
 
     // 3. Update the round score if the rolled number was NOT a 1
     // 4. Update the round score if player rolls two 3 in a row.
